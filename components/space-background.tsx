@@ -23,9 +23,9 @@ export default function SpaceBackground() {
 
     // Star properties
     const stars: Star[] = []
-    const numStars = 400
+    const numStars = window.innerWidth < 768 ? 200 : 400 // Fewer stars on mobile
     const nebulae: Nebula[] = []
-    const numNebulae = 5
+    const numNebulae = window.innerWidth < 768 ? 3 : 5 // Fewer nebulae on mobile
 
     // Create stars
     for (let i = 0; i < numStars; i++) {

@@ -27,7 +27,7 @@ export function ShrinkingTitle() {
   }, [])
 
   // Calculate styles based on scroll progress
-  const fontSize = 7 - scrollProgress * 5 // rem
+  const fontSize = window.innerWidth < 768 ? 3 - scrollProgress * 2 : 6 - scrollProgress * 4 // rem
   const translateY = scrollProgress * -50 // px
 
   return (
@@ -39,7 +39,7 @@ export function ShrinkingTitle() {
             style={{
               fontSize: `${fontSize}rem`,
               position: "fixed",
-              top: scrollProgress === 0 ? "20vh" : `${8 + (1 - scrollProgress) * 30}px`,
+              top: scrollProgress === 0 ? (window.innerWidth < 768 ? "15vh" : "20vh") : `${8 + (1 - scrollProgress) * 30}px`,
               left: "50%",
               transform: `translateX(-50%) scale(${1 - scrollProgress * 0.2})`,
               opacity: 1,

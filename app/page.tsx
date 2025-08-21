@@ -34,16 +34,16 @@ export default function Home() {
               my personal portfolio displaying my passion, design skills, and imagination
             </p>
 
-            <div className="flex gap-8">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
   <Link
     href="/#connect"
-    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift"
+    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
   >
     CONTACT
   </Link>
   <Link
     href="/about"
-    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift"
+    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
   >
     ABOUT
   </Link>
@@ -51,7 +51,7 @@ export default function Home() {
     href="https://drive.google.com/file/d/1C4Twqe2HGu4F2pvzkSAS2yWC5ueZ7EVu/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift"
+    className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
   >
     RESUME
   </Link>
@@ -76,7 +76,7 @@ export default function Home() {
               <h2 className="text-6xl font-bold tracking-tighter grid-logo">PROJECTS</h2>
               <Link
                 href="/projects"
-                className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift"
+                className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
               >
                 ALL
               </Link>
@@ -103,7 +103,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/roboticarm"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -146,7 +146,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/formula1frontwing"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -189,7 +189,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/cohdamount"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -229,7 +229,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/flappybirdtoy"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -269,7 +269,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/autonomousrobot"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -312,7 +312,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/ropebrakedyno"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -346,7 +346,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/stemcontrolsystem"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
@@ -383,7 +383,7 @@ export default function Home() {
                     <div className="mt-auto">
                       <Link
                         href="/projects/chassis"
-                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block text-center"
                       >
                         DETAILS
                       </Link>
