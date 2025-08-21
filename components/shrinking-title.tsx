@@ -41,7 +41,7 @@ export function ShrinkingTitle() {
     <>
       <div className="relative flex justify-center items-center">
         <h1
-          className="font-bold tracking-tighter relative z-20 transition-all duration-300 hover:scale-105"
+          className="font-bold tracking-tighter relative z-20 transition-all duration-300 hover:scale-105 font-space-mono"
           style={{
             fontSize: `${fontSize}rem`,
             position: "fixed",

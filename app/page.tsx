@@ -73,7 +73,7 @@ export default function Home() {
         <section className="min-h-screen py-20">
           <div className="container mx-auto p-4">
             <div className="flex justify-between items-center mb-12">
-              <h2 className="text-6xl font-bold tracking-tighter grid-logo">PROJECTS</h2>
+             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter grid-logo">PROJECTS</h2>
               <Link
                 href="/projects"
                 className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
@@ -94,7 +94,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">ROBOTIC ARM</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">ROBOTIC ARM</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                         Currently in progress. 3D printed robotic arm controlled using potentiometer dials and powered using Arduino, PCBs, SG90 Servo Motors, and Python. Has the ability save and replay positions.
@@ -137,7 +137,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">FORMULA 1 FRONT WING</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">FORMULA 1 FRONT WING</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Recreated and modelled the Williams FW31 Formula 1 front wing in SolidWorks, producing photorealistic renders in KeyShot and running CFD flow simulations to assess aerodynamic characteristics. Fabricated a physical prototype using a Bambu A1 3D printing system.
@@ -180,7 +180,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">CADILLAC LYRIQ COHDA MOUNT</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">CADILLAC LYRIQ COHDA MOUNT</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Currently in progress. Project is a design of a Cohda Wireless mount for the rear of a General Motors Cadillac Lyriq SUV.
@@ -220,7 +220,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">FLAPPY BIRD TOY</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">FLAPPY BIRD TOY</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Tasked with designing a viable toy design for SpinMaster Ltd. Developed a fully functioning toy inspired by the Flappy Bird mobile game using machining and 3D printing components using SolidWorks.
@@ -260,7 +260,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">AUTONOMOUS ROBOT LIBRARIAN</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">AUTONOMOUS ROBOT LIBRARIAN</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Developed a fully functioning robot librarian which sorts books onto corresponding shelves based on the colour scanned on the spine (genre). Using SolidWorks, RobotC, and rapid prototyping techniques such as 3D printing.
@@ -303,7 +303,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">ROPE BRAKE DYNAMOMETER</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">ROPE BRAKE DYNAMOMETER</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Successfully built a rope brake dynamometer to measure the torque of a TT motor using metal connections and pulley systems. Completed a technical report to present equations and model relationships.
@@ -337,7 +337,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">HAND GESTURE CONTROL SYSTEM</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">HAND GESTURE CONTROL SYSTEM</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Developed a fully functional hand gesture control system using Python. Hand gestures in front of sensors performed computer functions such as play, pause, rewind, and forward.
@@ -374,7 +374,7 @@ export default function Home() {
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition-opacity duration-300"
                   />
                   <div className="absolute inset-0 p-8 flex flex-col">
-                    <h3 className="text-4xl font-bold mb-2 grid-logo">HOOK ATTACHMENT AND CHASSIS GROUNDING</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">HOOK ATTACHMENT AND CHASSIS GROUNDING</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
                       Designed and prototyped a hook attachment for gasket sealing, tested o-rings for durability, 3D-printed prototypes, and prepared chassis for coating and finishing.
