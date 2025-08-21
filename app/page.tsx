@@ -27,7 +27,7 @@ export default function Home() {
           <ShrinkingTitle />
 
           {/* Add a spacer div to push content down to account for the fixed title */}
-          <div className="h-[15vh]"></div>
+          <div className="h-[10vh] sm:h-[15vh]"></div>
 
           <div className="flex flex-col items-center gap-4 relative z-10 mt-8">
             <p className="max-w-lg text-center text-lg mb-12">
@@ -48,7 +48,7 @@ export default function Home() {
     ABOUT
   </Link>
   <Link
-    href="https://drive.google.com/file/d/1C4Twqe2HGu4F2pvzkSAS2yWC5ueZ7EVu/view?usp=sharing"
+    href="https://drive.google.com/file/d/1lls6lCuU84XQzjy4fNkpttV2r5tPNTEG/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 hover-lift text-center"
