@@ -26,7 +26,50 @@ export default function Projects() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Project 1 - Robotic Arm */}
+            {/* Project 1 - Formula 1 Wind Tunnel */}
+              <div className="space-y-3 hover-lift">
+                <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
+                  <Image
+                    src="/images/Tunnel Front.jpg"
+                    alt="Formula 1 Wind Tunnel"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity duration-300"
+                  />
+                  <div className="absolute inset-0 p-8 flex flex-col">
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">FORMULA 1 WIND TUNNEL</h3>
+                    <div className="max-w-md mt-4">
+                      <p className="text-white-300 text-lg">
+                        Designed and built a 3D-printed Formula 1 wind tunnel to visualize aerodynamic airflow, incorporating key sections such as a diffuser, settling chamber, contraction nozzle, and test section. Integrated a fog-based flow visualization system with controlled lighting to analyze airflow behavior and optimize design performance.
+                      </p>
+                    </div>
+                    <div className="mt-auto">
+                      <Link
+                        href="/projects/formula1windtunnel"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                      >
+                        DETAILS
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    CAD
+                  </Badge>
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    3D Printing
+                  </Badge>
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    Aerodynamics
+                  </Badge>
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    Manufacturing
+                  </Badge>
+                </div>
+              </div>
+
+              {/* Project 2 - Robotic Arm */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -40,7 +83,7 @@ export default function Projects() {
                     <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">ROBOTIC ARM</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
-                        Currently in progress. 3D printed robotic arm controlled using potentiometer dials and powered using Arduino, PCBs, SG90 Servo Motors, and Python. Has the ability save and replay positions.
+                        3D printed robotic arm controlled using potentiometer dials and powered using Arduino, PCBs, SG90 Servo Motors, and Python. Has the ability save and replay positions.
                       </p>
                     </div>
                     <div className="mt-auto">
@@ -63,13 +106,11 @@ export default function Projects() {
                   <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
                     Python
                   </Badge>
-                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
-                    Circuitry
-                  </Badge>
                 </div>
               </div>
 
-              {/* Project 2 - Formula 1 Front Wing */}
+
+              {/* Project 3 - Formula 1 Front Wing */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -112,7 +153,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 3 - Cadillac Lyriq Cohda Mount */}
+              {/* Project 4 - Cadillac Lyriq Cohda Mount */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -126,7 +167,7 @@ export default function Projects() {
                     <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">CADILLAC LYRIQ COHDA MOUNT</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
-                      Currently in progress. Design of a Cohda Wireless mount for the rear of a General Motors Cadillac Lyriq SUV.
+                      Design of a Cohda Wireless mount for the rear of a General Motors Cadillac Lyriq SUV.
                       </p>
                     </div>
                     <div className="mt-auto">
@@ -152,7 +193,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 4 - Flappy Bird Toy */}
+              {/* Project 5 - Flappy Bird Toy */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -192,7 +233,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 5 - Autonomous Robot Librarian */}
+              {/* Project 6 - Autonomous Robot Librarian */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -235,7 +276,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 6 - Rope Brake Dynamometer */}
+              {/* Project 7 - Rope Brake Dynamometer */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -269,7 +310,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 7 - Hand Gesture Control System */}
+              {/* Project 8 - Hand Gesture Control System */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -306,7 +347,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 8 - Hook Attachment R&D and Chassis Grounding */}
+              {/* Project 9 - Hook Attachment R&D and Chassis Grounding */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image

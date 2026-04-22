@@ -23,10 +23,43 @@ interface ProjectData {
 }
 
 const projectsData: Record<string, ProjectData> = {
+  formula1windtunnel: {
+    title: "FORMULA 1 WIND TUNNEL",
+    overview:
+      "Designed and built a 3D-printed Formula 1 wind tunnel to visualize aerodynamic airflow, incorporating key sections such as a diffuser, settling chamber, contraction nozzle, and test section. Integrated a fog-based flow visualization system with controlled lighting to analyze airflow behavior and optimize design performance.",
+    skills: ["CAD", "3D Printing", "Aerodynamics", "Manufacturing", "SolidWorks"],
+    reportLink: "https://drive.google.com/file/d/1etcgri5R_tSDKGw9r5NvzWiXC5fGnmLE/view?usp=sharing",
+    reportLabel: "TECHNICAL REPORT",
+    mainImage: "/images/Tunnel Front.jpg",
+    mainImageAlt: "Wind tunnel full view",
+    sections: [
+      {
+        title: "PROJECT OVERVIEW",
+        content:
+          "I designed and fabricated a small-scale wind tunnel to study and visualize aerodynamic airflow, inspired by Formula 1 testing environments. The goal was to create a functional, low-cost system capable of producing smooth, observable airflow for educational and experimental purposes. The project emphasized both aerodynamic performance and manufacturability using accessible tools such as CAD and 3D printing.",
+        image: "/images/Wind Tunnel.jpg",
+        imageAlt: "Wind tunnel sections",
+      },
+      {
+        title: "DESIGN AND MANUFACTURING",
+        content:
+          "The wind tunnel consists of five primary sections: diffuser, test section, settling chamber, contraction nozzle, and fan section. Each component was designed in CAD and 3D printed, allowing for precise control over internal geometry and airflow transitions. To improve flow quality, the design incorporated a contraction nozzle to accelerate air and a settling chamber to reduce turbulence. Flow visualization was achieved using a fog machine combined with a fan, while integrated lighting in the test section enhanced visibility of airflow patterns. Special attention was given to sealing all joints and interfaces using tape and an acetate viewing panel to minimize air leakage and maintain consistent flow conditions.",
+        image: "/images/Tunnel.jpg",
+        imageAlt: "Wind tunnel",
+      },
+      {
+        title: "FLOW VISUALIZATION AND RESULTS",
+        content:
+          "The final system successfully demonstrated clear aerodynamic flow visualization within the test section, validating the effectiveness of the design. This project highlights the ability to translate aerodynamic theory into a functional physical system while working within practical constraints. It also showcases skills in CAD design, rapid prototyping, experimental setup, and iterative problem-solving, providing a strong foundation for more advanced fluid dynamics and engineering applications.",
+        image: "/images/Fog Machine.jpg",
+        imageAlt: "Fog machine",
+      },
+    ],
+  },
   roboticarm: {
     title: "ROBOTIC ARM",
     overview:
-      "Currently in progress. 3D printed robotic arm controlled using potentiometer dials and powered using Arduino, PCBs, SG90 Servo Motors, and Python. Has the ability save and replay positions.",
+      "3D printed robotic arm controlled using potentiometer dials and powered using Arduino, PCBs, SG90 Servo Motors, and Python. Has the ability save and replay positions.",
     skills: ["CAD", "C++", "Kinematics", "FEA", "ESP32", "SolidWorks"],
     mainImage: "/images/Robot Arm.jpg",
     mainImageAlt: "Robotic arm full view",
@@ -70,7 +103,7 @@ const projectsData: Record<string, ProjectData> = {
   cohdamount: {
     title: "CADILLAC LYRIQ COHDA MOUNT",
     overview:
-      "Currently in progress. Project is a design of a Cohda Wireless mount for the rear of a General Motors Cadillac Lyriq SUV.",
+      "Project is a design of a Cohda Wireless mount for the rear of a General Motors Cadillac Lyriq SUV.",
     skills: ["CAD", "Automotive Design", "Material Testing", "Manufacturing", "Quality Control"],
     mainImage: "/images/Cohda.jpg",
     mainImageAlt: "Cadillac Lyriq Cohda mount",
