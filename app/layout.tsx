@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${spaceMono.variable} ${inter.className}`}>  {/* Modified this line */}
         <ThemeProvider
           attribute="class"

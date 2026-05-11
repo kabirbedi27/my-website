@@ -282,8 +282,8 @@ const projectsData: Record<string, ProjectData> = {
   },
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-  const { slug } = params
+export default async function ProjectPage({ params }: { params: { slug: string } }) {
+  const { slug } = await params
   const project = projectsData[slug] || {
     title: "Project Not Found",
     overview: "Sorry, this project could not be found",
