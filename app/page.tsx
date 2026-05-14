@@ -59,7 +59,7 @@ export default function Home() {
 
             {/* Circular image below buttons */}
             <div className="relative w-40 h-40 rounded-full overflow-hidden border-2 border-white/20 shadow-lg hover:scale-105 transition-all duration-500 mt-8">
-              <Image src="/images/Kabir Bedi.jpg" alt="Profile Photo" fill className="object-cover" />
+              <Image src="/images/Kabir Bedi.JPG" alt="Profile Photo" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end justify-center">
                 <div className="p-4 text-center">
                   <span className="text-white/90 font-medium">KABIR BEDI</span>
