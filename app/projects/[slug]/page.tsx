@@ -65,10 +65,26 @@ const projectsData: Record<string, ProjectData> = {
     mainImageAlt: "Robotic arm full view",
     sections: [
       {
-        title: "COMING SOON 🤫",
+        title: "MECHANICAL DESIGN AND CAD",
         content:
-          "",
+          "Designed and built a fully functional 3D-printed robotic arm capable of precise multi-axis motion control using an Arduino/ESP32-based embedded system. The mechanical structure was modeled in SolidWorks using advanced CAD techniques and optimized for lightweight strength and smooth articulation. By applying principles of kinematics and mechanical design, the robotic arm achieved accurate and responsive motion through SG90 servo motors controlled via potentiometer dials.",
+        image: "/images/Potentiometer.jpg",
+        imageAlt: "CAD model of F1 front wing",
       },
+      {
+        title: "EMBEDDED SYSTEMS AND ELECTRONICS",
+        content:
+          "Developed the robotic arm's embedded control system using C++ firmware and custom PCB integration to coordinate multiple actuators simultaneously. Analog potentiometer inputs were processed in real time and translated into synchronized servo commands, enabling intuitive joint control and stable system performance. Finite Element Analysis (FEA) was also used during the design process to evaluate stress distribution and improve structural reliability of key load-bearing components before fabrication.",
+        image: "/images/Robot Inside.jpg",
+        imageAlt: "CFD analysis results",
+      },
+      {
+        title: "AUTOMATION AND MOTION REPLAY",
+        content:
+          "Implemented a motion recording and replay system that allowed the robotic arm to save user-defined positions and autonomously reproduce movement sequences. Using Python for serial communication and data handling alongside embedded C++ control logic, the system demonstrated repeatable robotic automation and efficient human-machine interaction. This project strengthened practical skills in CAD modeling, embedded systems, kinematics, FEA-driven design optimization, and robotic system integration.",
+        image: "/images/Robot Connections.jpg",
+        imageAlt: "CFD analysis results",
+        },
     ],
   },
   formula1frontwing: {

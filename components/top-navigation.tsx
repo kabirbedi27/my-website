@@ -25,7 +25,7 @@ export function TopNavigation() {
             <Linkedin className="w-5 h-5" />
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1lls6lCuU84XQzjy4fNkpttV2r5tPNTEG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qN6GoI4FQ8a1W2Y__mC7HzgN7_dJHl7s/view?usp=sharing"
             target="_blank"
             className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-200"
             aria-label="Resume"
