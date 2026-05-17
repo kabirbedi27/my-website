@@ -59,7 +59,7 @@ const projectsData: Record<string, ProjectData> = {
   closeoutattachment: {
     title: "FIREWALL CLOSEOUT ATTACHMENT",
     overview:
-      "",
+      "Designed and modeled a custom closeout attachment in SOLIDWORKS to provide a secure and manufacturable mounting solution for a mechanical assembly. The design incorporated button head screws and PEM nuts for reliable fastening, improved serviceability, and efficient integration within the system while applying CAD modeling and design-for-manufacturing principles.",
     skills: ["CAD", "Manufacturing", "SolidWorks"],
     mainImage: "/images/Frame.jpg",
     mainImageAlt: "Wind tunnel full view",
