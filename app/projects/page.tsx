@@ -69,7 +69,47 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 2 - Robotic Arm */}
+            {/* Project 2 - Firewall Closeout Attachment */}
+              <div className="space-y-3 hover-lift">
+                <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
+                  <Image
+                    src="/images/Frame.jpg"
+                    alt="Formula 1 Wind Tunnel"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity duration-300"
+                  />
+                  <div className="absolute inset-0 p-8 flex flex-col">
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">FIREWALL CLOSEOUT ATTACHMENT</h3>
+                    <div className="max-w-md mt-4">
+                      <p className="text-white-300 text-lg">
+                      Led design of closeout attachment with firewall to ensure proper seal and improved removal time.
+                      </p>
+                    </div>
+                    <div className="mt-auto">
+                      <Link
+                        href="/projects/closeoutattachment"
+                        className="px-8 py-3 rounded-full border border-white/20 bg-black/50 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 inline-block"
+                      >
+                        DETAILS
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    CAD
+                  </Badge>
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    Manufacturing
+                  </Badge>
+                  <Badge className="bg-black/70 text-white border-white/20 rounded-full px-4 py-1 hover:scale-105 transition-transform duration-300 hover:bg-black/90">
+                    SolidWorks
+                  </Badge>
+                </div>
+              </div>
+
+              {/* Project 3 - Robotic Arm */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -110,7 +150,7 @@ export default function Projects() {
               </div>
 
 
-              {/* Project 3 - Formula 1 Front Wing */}
+              {/* Project 4 - Formula 1 Front Wing */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -153,7 +193,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 4 - Cadillac Lyriq Cohda Mount */}
+              {/* Project 5 - Cadillac Lyriq Cohda Mount */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -193,7 +233,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 5 - Flappy Bird Toy */}
+              {/* Project 6 - Flappy Bird Toy */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -233,7 +273,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 6 - Autonomous Robot Librarian */}
+              {/* Project 7 - Autonomous Robot Librarian */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -276,7 +316,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 7 - Rope Brake Dynamometer */}
+              {/* Project 8 - Rope Brake Dynamometer */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -310,7 +350,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 8 - Hand Gesture Control System */}
+              {/* Project 9 - Hand Gesture Control System */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image
@@ -347,7 +387,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Project 9 - Hook Attachment R&D and Chassis Grounding */}
+              {/* Project 10 - Hook Attachment R&D and Chassis Grounding */}
               <div className="space-y-3 hover-lift">
                 <div className="rounded-xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 relative group h-[450px] transition-all duration-300 hover:border-orange-500/30">
                   <Image

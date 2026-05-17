@@ -56,6 +56,37 @@ const projectsData: Record<string, ProjectData> = {
       },
     ],
   },
+  closeoutattachment: {
+    title: "FIREWALL CLOSEOUT ATTACHMENT",
+    overview:
+      "Led design of closeout attachment with firewall to ensure proper seal and improved removal time.",
+    skills: ["CAD", "Manufacturing", "SolidWorks"],
+    mainImage: "/images/Frame.jpg",
+    mainImageAlt: "Wind tunnel full view",
+    sections: [
+      {
+        title: "DESIGN AND FUNCTIONALITY",
+        content:
+          "Designed and modeled a custom closeout attachment to provide a secure and durable mounting solution within the assembly while maintaining a compact and manufacturable geometry. The attachment was developed in SolidWorks with careful consideration of alignment, fastening accessibility, and structural integration with surrounding components. Emphasis was placed on creating a clean mechanical interface capable of withstanding repeated assembly and disassembly cycles.",
+        image: "/images/Assembly.jpg",
+        imageAlt: "Wind tunnel sections",
+      },
+      {
+        title: "MECHANICAL INTEGRATION",
+        content:
+          "The closeout attachment was engineered for reliable fastening and ease of installation using button head screws and PEM nuts to secure the assembly. PEM nuts were incorporated to provide strong reusable threads in sheet metal components while minimizing the need for additional hardware and simplifying maintenance. The use of low-profile button head screws improved tool accessibility and maintained a streamlined external profile within the final design",
+        image: "/images/Screw.jpg",
+        imageAlt: "Wind tunnel",
+      },
+      {
+        title: "ENGINEERING AND MANUFACTURING",
+        content:
+          "Applied CAD modeling, mechanical design, and design-for-manufacturing principles throughout the development process to ensure accurate fitment and efficient fabrication. Tolerances and mounting features were optimized to support manufacturability and assembly repeatability while maintaining structural rigidity. The project strengthened experience in mechanical integration, fastening system selection, and professional engineering documentation for real-world hardware assemblies.",
+        image: "/images/PEM Nut.jpg",
+        imageAlt: "Fog machine",
+      },
+    ],
+  },
   roboticarm: {
     title: "ROBOTIC ARM",
     overview:
