@@ -83,7 +83,7 @@ export default function Projects() {
                     <h3 className="text-2xl md:text-4xl font-bold mb-2 grid-logo">FIREWALL CLOSEOUT ATTACHMENT</h3>
                     <div className="max-w-md mt-4">
                       <p className="text-white-300 text-lg">
-                      Led design of closeout attachment with firewall to ensure proper seal and improved removal time.
+                      Designed and modeled a custom closeout attachment in SOLIDWORKS to provide a secure and manufacturable mounting solution for a mechanical assembly. The design incorporated button head screws and PEM nuts for reliable fastening, improved serviceability, and efficient integration within the system while applying CAD modeling and design-for-manufacturing principles.
                       </p>
                     </div>
                     <div className="mt-auto">
