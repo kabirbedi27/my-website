@@ -59,7 +59,7 @@ const projectsData: Record<string, ProjectData> = {
   closeoutattachment: {
     title: "FIREWALL CLOSEOUT ATTACHMENT",
     overview:
-      "Designed and modeled a custom closeout attachment in SOLIDWORKS to provide a secure and manufacturable mounting solution for a mechanical assembly. The design incorporated button head screws and PEM nuts for reliable fastening, improved serviceability, and efficient integration within the system while applying CAD modeling and design-for-manufacturing principles.",
+      "Designed and modeled a custom closeout attachment in SolidWorks to provide a secure and manufacturable mounting solution for a mechanical assembly. The design incorporated button head screws and PEM nuts for reliable fastening, improved serviceability, and efficient integration within the system while applying CAD modeling and design-for-manufacturing principles.",
     skills: ["CAD", "Manufacturing", "SolidWorks"],
     mainImage: "/images/Frame.jpg",
     mainImageAlt: "Wind tunnel full view",
@@ -67,7 +67,7 @@ const projectsData: Record<string, ProjectData> = {
       {
         title: "DESIGN AND FUNCTIONALITY",
         content:
-          "Designed and modeled a custom closeout attachment for the University of Waterloo Formula Electric race car to provide a secure and durable mounting solution within the vehicle assembly while maintaining a compact and manufacturable geometry. The attachment was developed in SOLIDWORKS with careful consideration of alignment, fastening accessibility, and structural integration with surrounding components. Emphasis was placed on creating a clean mechanical interface capable of withstanding repeated assembly and disassembly cycles in a high-performance engineering environment.",
+          "Designed and modeled a custom closeout attachment for the University of Waterloo Formula Electric race car to provide a secure and durable mounting solution within the vehicle assembly while maintaining a compact and manufacturable geometry. The attachment was developed in SolidWorks with careful consideration of alignment, fastening accessibility, and structural integration with surrounding components. Emphasis was placed on creating a clean mechanical interface capable of withstanding repeated assembly and disassembly cycles in a high-performance engineering environment.",
         image: "/images/Assembly.jpg",
         imageAlt: "Wind tunnel sections",
       },
@@ -382,12 +382,12 @@ export default async function ProjectPage({ params }: { params: { slug: string }
     </h1>
 
     <h2 className="text-2xl font-bold tracking-wider mb-6 font-space-mono">OVERVIEW:</h2>
-    <p className="text-lg leading-relaxed text-gray-300">{project.overview}</p>
+    <p className="text-lg text-gray-300 bg-black/30 backdrop-blur-sm p-4 rounded-xl">{project.overview}</p>
   </div>
 
   <div>
     <h3 className="text-2xl font-bold tracking-wider mb-4 font-space-mono">SKILLS:</h3>
-    <p className="text-lg text-gray-300">{project.skills.join(", ")}</p>
+    <p className="text-lg text-gray-300 bg-black/30 backdrop-blur-sm p-4 rounded-xl">{project.skills.join(", ")}</p>
   </div>
 
   {/* Demo and Report Buttons */}
@@ -448,7 +448,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                 className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}
               >
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
-                  <p className="text-lg leading-relaxed text-gray-300">{section.content}</p>
+                  <p className="text-lg text-gray-300 bg-black/30 backdrop-blur-sm p-4 rounded-xl">{section.content}</p>
                 </div>
 
                 {section.image && (
